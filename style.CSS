@@ -4,20 +4,20 @@
     text-align: center;
 }
 
-.game {
+.game{
     position: absolute;
     left: 30vw;
     bottom: 180px;
 }
 
-h1 {
+h1{
     background-color: #081310;
     color: white;
     height: 5rem;
     line-height: 5rem;
 }
 
-.choice {
+.choice{
     height: 165px;
     width: 165px;
     border-radius: 50%;
@@ -26,19 +26,19 @@ h1 {
     align-items: center;
 }
 
-.choice:hover {
+.choice:hover{
     cursor: pointer;
     background-color: #081310;
 }
 
-img {
+img{
     height: 150px;
     width: 150px;
     object-fit: cover;
     border-radius: 50%;
 }
 
-.choices {
+.choices{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -46,7 +46,7 @@ img {
     margin-top: 5rem;
 }
 
-.score-board {
+.score-board{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -55,15 +55,15 @@ img {
     font-size: 2rem;
 }
 
-#user-score, #comp-score {
+#user-score, #comp-score{
     font-size: 4rem;
 }
 
-.msg-container {
+.msg-container{
     margin-top: 5rem;
 }
 
-#msg  {
+#msg{
     background-color: #081310;
     color: #fff;
     font-size: 2rem;
@@ -72,7 +72,7 @@ img {
     border-radius: 1rem;
 }
 
-ul {
+ul{
     height: 3rem;
     background-color: #353beb;
     border: 2px solid #fff;
@@ -81,13 +81,13 @@ ul {
     align-items: center;
 }
 
-a {
+a{
     color: #fff;
     font-size: 2rem;
     text-decoration: none;
 }
 
-a:hover {
+a:hover{
     border: 3px solid hsl(0, 0%, 50%);
     background-color: hsl(0, 100%, 82%);
 }
