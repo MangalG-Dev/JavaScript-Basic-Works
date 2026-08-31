@@ -1,76 +1,54 @@
-*{
-    margin: 0;
-    padding: 0;
-    text-align: center;
+body {
+    background: hsl(214, 58%, 90%);
+    min-height: 100vh;
 }
 
-.game{
-    position: absolute;
-    left: 30vw;
-    bottom: 180px;
+.app-container {
+    max-width: 700px;
+    margin: 60px auto;
 }
 
-h1{
-    background-color: #081310;
-    color: white;
-    height: 5rem;
-    line-height: 5rem;
+.search-card {
+    border: none;
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
 }
 
-.choice{
-    height: 165px;
-    width: 165px;
-    border-radius: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.app-title {
+    font-weight: 700;
 }
 
-.choice:hover{
-    cursor: pointer;
-    background-color: #081310;
+.search-btn {
+    border-radius: 10px;
+    padding: 12px;
+    font-weight: 600;
 }
 
-img{
-    height: 150px;
-    width: 150px;
-    object-fit: cover;
-    border-radius: 50%;
+.result-card {
+    border-radius: 15px;
+    background: #fff;
 }
 
-.choices{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 3rem;
-    margin-top: 5rem;
+.result-item {
+    padding: 12px 0;
+    border-bottom: 1px solid #eee;
 }
 
-.score-board{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 3rem;
-    gap: 10rem;
-    font-size: 2rem;
+.result-item:last-child {
+    border-bottom: none;
 }
 
-#user-score, #comp-score{
-    font-size: 4rem;
+.result-label {
+    font-weight: 600;
+    color: #555;
 }
 
-.msg-container{
-    margin-top: 5rem;
+.ifsc-code {
+    font-size: 1.4rem;
+    font-weight: 700;
 }
 
-#msg{
-    background-color: #081310;
-    color: #fff;
-    font-size: 2rem;
-    display: inline;
-    padding: 1rem;
-    border-radius: 1rem;
-}
+
 
 ul{
     height: 3rem;
