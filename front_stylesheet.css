@@ -114,12 +114,16 @@ a:hover{
 
     .navigation .banner_nav_link {
         text-align: center;
-        /* padding: 14px 20px !important; */
+        /* padding: 14px 20px !important;   */
         border-bottom: 1px solid rgba(255, 255, 255, 0.1);
     }
 
     .navigation li:last-child .banner_nav_link {
         border-bottom: none;
+    }
+
+    #banner_col {
+        font-size: 0.5rem;
     }
 
 }
