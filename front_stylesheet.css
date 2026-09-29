@@ -67,3 +67,25 @@ a:hover{
     border: 3px solid hsl(0, 0%, 50%);
     background-color: hsl(220, 20%, 97%);
 }
+
+@media screen and (max-width: 768px) {
+    .navigation ul {
+        flex-direction: column;
+        width: 100%;
+        background-color: var(--nav-bg-color);
+    }
+
+    .navigation li {
+        width: 100%;
+    }
+
+    .navigation .banner_col {
+        padding: 15px;
+        border-bottom: 1px solid #444;
+        text-align: left; 
+    }
+
+    .navigation li:last-child .banner_col {
+        border-bottom: none;
+    }
+}
