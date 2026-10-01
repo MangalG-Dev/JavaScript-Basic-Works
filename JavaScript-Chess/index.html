@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Chess</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main class="app">
+        <header class="topbar">
+            <div>
+                <h1>Chess</h1>
+            </div>
+            <div id="status" class="status">White to move</div>
+        </header>
+
+        <section class="game-layout">
+            <div class="board-wrap">
+                <div id="board" class="board" aria-label="Chess board"></div>
+            </div>
+
+            <aside class="panel">
+                <div class="player">
+                    <div class="player-card" id="black-card">
+                        <span class="dot White-dot"></span>
+                        <div><strong>White </strong><small id="white-status">Your turn</small></div>
+                    </div>
+                </div>
+
+                <div class="controls">
+                    <button id="new-game">New Game</button>
+                    <button id="undo">Undo</button>
+                    <button id="save">Save</button>
+                    <button id="load">Load</button>
+                </div>
+
+                <div class="history">
+                    <div class="section-title">Move History</div>
+                    <ol id="move-list"></ol>
+                </div>
+
+                <div class="help">
+                    <strong>How To Play</strong>
+                    <p>Click a piece, then click a highlighted square. The game En forces legal movement, captures, check, checkmate, stalemate, castling, en passant and promotion.</p>
+                </div>
+            </aside>
+        </section>
+    </main>
+    
+    <div id="promotion-model" class="model hidden">
+        <div class="model-card">
+            <h2>Promote pawn</h2>
+            <p>Choose a piece:</p>
+            <div id="promotion-options" class="promotion-options"></div>
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/.../chess.min.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
